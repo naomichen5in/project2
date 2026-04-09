@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  background-color:rgb(184, 223, 246);
+  color: rgb(87, 75, 76);
+}
+
+.light-mode {
+  background-color:rgb(142, 230, 224);
+  color: rgb(196, 144, 153);
+}
+
+.center {
+  width: 940px;
+  padding: 20px;
+  border: 1px dotted rgb(123, 203, 207);
+  /* TODO Add margins to center. */
+}
+.poem {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(135, 143, 150);
+  padding: 10px;
+  text-align: center;
+}
+
+.light-mode footer {
+  /* TODO Add footer light mode styles here. */
+}
