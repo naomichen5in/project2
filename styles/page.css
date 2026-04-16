@@ -8,26 +8,33 @@ body {
 }
 
 .light-mode {
-  background-color:rgb(142, 230, 224);
-  color: rgb(196, 144, 153);
+  background-color:rgb(109, 145, 177);
+  color: rgb(240, 240, 254);
 }
 
 .center {
   width: 940px;
   padding: 20px;
   border: 1px dotted rgb(123, 203, 207);
-  /* TODO Add margins to center. */
+  margin-left: auto;
+  margin-right: auto;
 }
 .poem {
   text-align: center;
 }
 
 footer {
-  background-color: rgb(135, 143, 150);
+  background-color: rgb(136, 137, 134);
   padding: 10px;
   text-align: center;
 }
 
 .light-mode footer {
   /* TODO Add footer light mode styles here. */
+}
+
+.example {
+  border: 15px solid rgb(187, 185, 185);
+  padding: 20px;
+  width: 200px;
 }
