@@ -5,7 +5,7 @@
 body {
   padding: 20px;
   background-color: rgb(184, 223, 246);
-  color: rgb(87, 75, 76);
+  color: rgb(172, 164, 165);
 }
 
 .light-mode {
@@ -42,12 +42,13 @@ footer {
 }
 
 #calculator {
-  background-color: rgb(167, 152, 152);
+  background-color: rgb(121, 109, 109);
   padding: 20px;
   border: 2px solid rgb(255, 255, 255);
-  width: 250px;
-  height:500px;
-  margin:20px;
+  /*width: 250px;*/
+  display: inline-block;
+  height: 430px;
+  margin: 20px;
 }
 
 #counter {
@@ -55,8 +56,8 @@ footer {
   background-color: rgb(250, 188, 240);
   padding: 20px;
   border: 2px solid black;
-  max-width: 300px;
-  
+  /*max-width: 300px;*/
+
 }
 
 #calculator-buttons {
@@ -64,15 +65,16 @@ footer {
   padding: 20px;
   border: 5px solid black;
   width: 260px;
-  height: 350px;
+  height: 330px;
   border-width: 10px;
   border-radius: 5px;
 }
-  #calculator-buttons button{
-  min-width:60px;
-  min-height:40px;
-  background-color:white ;
-  color:black;
-box-shadow: 0 0 0 0 rgb(97, 97, 97);
-font-size: 30px;
+
+#calulator-buttons button {
+  width: 40px;
+  height: 25px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 0 rgb(97, 97, 97);
+  font-size: 20px;
 }
